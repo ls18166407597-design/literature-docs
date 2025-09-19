@@ -1,0 +1,54 @@
+# 模型文件
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# 数据文件
+*.pkl
+*.pickle
+*.json
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
